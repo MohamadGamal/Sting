@@ -1,0 +1,55 @@
+﻿Build started 1/12/2015 9:52:08 PM.
+     1>Project "E:\b\kl\Project\PROJECT A\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\AM\Documents\Visual Studio 2012\Projects\ProjectMamlaketAlKhoyot" /I"E:\b\gtest-1.7.0\include" /I"E:\b\gtest-1.7.0" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>e:\b\kl\project\project a\consoleapplication1\sting.h(7): warning C4018: '<' : signed/unsigned mismatch
+                 e:\b\kl\project\project a\consoleapplication1\sting.h(6) : while compiling class template member function 'bool charpattern<chartype>::operator ==(chartype)'
+                 with
+                 [
+                     chartype=char
+                 ]
+                 e:\b\kl\project\project a\consoleapplication1\sting.h(223) : see reference to function template instantiation 'bool charpattern<chartype>::operator ==(chartype)' being compiled
+                 with
+                 [
+                     chartype=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\utility(202) : see reference to class template instantiation 'charpattern<chartype>' being compiled
+                 with
+                 [
+                     chartype=char
+                 ]
+                 e:\b\kl\project\project a\consoleapplication1\sting.h(223) : see reference to class template instantiation 'std::pair<_Ty1,_Ty2>' being compiled
+                 with
+                 [
+                     _Ty1=bool,
+                     _Ty2=charpattern<char>
+                 ]
+                 e:\b\kl\project\project a\consoleapplication1\sting.h(214) : while compiling class template member function 'std::vector<_Ty> Sting_List_Generic<chartype>::patternmatch(Sting_List_Generic<chartype> &)'
+                 with
+                 [
+                     _Ty=Sting_List_Generic<char>,
+                     chartype=char
+                 ]
+                 e:\b\kl\project\project a\consoleapplication1\consoleapplication1.cpp(105) : see reference to function template instantiation 'std::vector<_Ty> Sting_List_Generic<chartype>::patternmatch(Sting_List_Generic<chartype> &)' being compiled
+                 with
+                 [
+                     _Ty=Sting_List_Generic<char>,
+                     chartype=char
+                 ]
+                 e:\b\kl\project\project a\consoleapplication1\consoleapplication1.cpp(8) : see reference to class template instantiation 'Sting_List_Generic<chartype>' being compiled
+                 with
+                 [
+                     chartype=char
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\b\kl\Project\PROJECT A\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\b\kl\Project\PROJECT A\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\b\kl\Project\PROJECT A\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         "E:\b\kl\Project\PROJECT A\Debug\GoogleTest.lib"
+         ConsoleApplication1.vcxproj -> E:\b\kl\Project\PROJECT A\Debug\ConsoleApplication1.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"E:\b\kl\Project\PROJECT A\Debug\ConsoleApplication1.bsc" /n Debug\ConsoleApplication1.sbr
+     1>Done Building Project "E:\b\kl\Project\PROJECT A\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.27
