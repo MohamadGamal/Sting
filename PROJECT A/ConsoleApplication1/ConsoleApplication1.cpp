@@ -4,6 +4,7 @@
 #include<vector>
 #include<string>
 #include<cstring>
+#jsjsjsjjsjjjjs
 TEST(testCase0,Squarebracketsandconstructors){
 	Sting a="123",b;	
 EXPECT_EQ('1',a[0]);
